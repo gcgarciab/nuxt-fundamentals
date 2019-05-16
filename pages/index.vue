@@ -28,6 +28,17 @@ export default {
   components: {
     Logo
   },
+  head () {
+    return {
+      title: 'Home Page 🍕',
+      meta: [
+        { name: 'twitter:title', content: 'Nuxt Fundamentals by Vue School' },
+        { name: 'twitter:description', content: 'Nuxt + Vue school = 🍕' },
+        { name: 'twitter:image', content: 'https://vueschool.io/img/favicons/apple-touch-icon.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+      ]
+    }
+  },
   computed: {
     posts () {
       return this.$store.state.posts.all
