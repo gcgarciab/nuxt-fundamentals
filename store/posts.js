@@ -13,7 +13,7 @@ export const state = () => ({
     {
       id: 'how',
       title: 'How can I fix this problem?',
-      content: 'Please help me. I dont know what is the best way to fix my problem. I cant reproduce and I cant tell more info. Can someone help me asap??? I am in a hurry!!!'
+      content: 'Please help me. I dont know what is the best way to fix my problem. I cant reproduce and I cant tell more info. Can someone help me asap??? I am in a hurry!!!' 
     }
   ]
 })
